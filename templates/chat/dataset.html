@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		fill data
+	</title>
+</head>
+<body>
+<form action="/fill/" method="POST" >
+<div>
+	<div>
+	<input type="text" name="otp">
+	</div>
+	<input type="text" name="description">
+	<div>
+	<input type="submit" name="">
+	</div>
+	</form>
+	{% for i in data %}
+	<div>
+	{{i.username}}
+	</div>
+	<div>
+	{{i.email}}
+	</div>
+	<div>
+	{{i.password}}
+	</div>
+	{% endfor %}
+</div>
+
+</body>
+</html>
