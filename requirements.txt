@@ -3,7 +3,7 @@ django-widget-tweaks==1.4.1
 djangorestframework==3.11.0
 djangorestframework-jsonapi==3.1.0
 inflection==0.4.0
-Pillow==7.1.2
+Pillow==9.0.1
 python-memcached==1.59
 pytz==2017.3
 six==1.14.0
